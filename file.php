@@ -8,7 +8,7 @@
 
 // has content
 $content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quibusdam.";
-mkdir("test");
+mkdir("test", 0777, true);
 file_put_contents("test/f.php", $content);
 sleep(5);
 // unlink("test/f.php");

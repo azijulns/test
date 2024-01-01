@@ -55,5 +55,5 @@ $str = "hello world,how are you?";
 // }
 
 // stang search
-// echo strpos($str, "how");
-// echo stripos($str, "How");
+echo strpos($str, "how");
+echo stripos($str, "How");
